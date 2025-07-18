@@ -1,0 +1,94 @@
+   
+            
+        @media (min-width: 1400px) {
+        /* xxl */
+        
+        }
+        
+        @media (min-width: 1200px) and (max-width: 1399px) {
+        /* xl */
+        
+        }
+        
+        @media (min-width: 992px) and (max-width: 1199px) {
+        /* lg */
+        
+        }
+        
+        @media (min-width: 768px) and (max-width: 991px) {
+        /* md */
+        
+        }
+        
+        @media (max-width: 767px) {
+        /* sm */
+            #row1 col{
+                border-radius: 20px;
+            }
+        }
+    
+    .text-justify{
+        text-align: justify;
+    }
+    
+    .HobbyBG {      
+       
+        background-color: #231b17;
+        
+        
+    }
+
+
+
+    @keyframes fadeUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .fade-up {
+        opacity: 0;
+        animation: fadeUp 3s ease forwards;
+    }
+
+
+    .imgsize {
+        max-width: 60%; /* รักษาสัดส่วนของรูปภาพ */
+        height: auto; /* ไม่ทำให้รูปภาพเกินความสูง */
+        align-items: center; 
+    }
+
+    @keyframes fadeLeft {
+        from {
+            opacity: 0;
+            transform: translateX(-20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .fade-left {
+        animation: fadeLeft 3s ease-out;
+    }
+
+    @keyframes fadeRight {
+        from {
+            opacity: 0;
+            transform: translateX(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .fade-right {
+        animation: fadeRight 3s ease-out;
+    }
